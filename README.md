@@ -18,17 +18,17 @@ El APP tiene 3 páginas, en donde se muestra una página de inicio donde muestra
 
 ## Imágenes
   1. Vista de la pagina principal.
-  ![Imagen](./public/screenshots/img2.jpg)
+  ![Imagen](./public/screenshots/img2.jpeg)
   
   2. Consumo de API **`Rick and Morty`** con el endpoint **`/character`** la cual obtenemos todos los registros de los personajes, cuenta con una paginacion sencilla para mostrar todos los personajes por secciones.
 
-  ![Imagen](./public/screenshots/img1.jpg)
+  ![Imagen](./public/screenshots/img1.jpeg)
 
-  ![Imagen](./public/screenshots/img3.jpg)
+  ![Imagen](./public/screenshots/img3.jpeg)
 
   3. Consumo de API **`JSONPLACEHOLDER`** endpoint **`/posts`** la cual contiene 100 posts para realizar las consultas.
 
-  ![Imagen](./public/screenshots/img4.jpg)
+  ![Imagen](./public/screenshots/img4.jpeg)
 
 ## Librerías utilizadas
   1. **`axios`** es un paquete que nos permite hacer peticiones o llamadas al contenido de un enlace HTTP, para el consumo de API.
