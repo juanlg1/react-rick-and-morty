@@ -1,13 +1,17 @@
 import { useLocation } from 'react-router'
-import { NavLink } from '../../ui/header'
+import { Link } from 'react-router-dom'
 
 const NavigationLink = ({ to, text }) => {
   const location = useLocation()
   const path = location.pathname === to ? 'active' : ''
   return (
-    <NavLink to={to} active={path}>
-      {text.toUpperCase()}
-    </NavLink>
+    <Link
+      to={to}
+      active={path}
+      className='bg-red-400 rounded-md p-2'
+    >
+      {text}
+    </Link>
   )
 }
 
